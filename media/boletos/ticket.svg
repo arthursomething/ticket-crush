@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="91" viewBox="0 0 180 91">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ac13e5"/>
+      <stop offset="1" stop-color="#16a3e2"/>
+      <stop offset="1" stop-color="#13f49d"/>
+    </linearGradient>
+    <filter id="Rectángulo_5" x="-9" y="-9" width="198" height="109" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Mesa_de_trabajo_1">
+      <rect width="180" height="91"/>
+    </clipPath>
+  </defs>
+  <g id="Mesa_de_trabajo_1" data-name="Mesa de trabajo – 1" clip-path="url(#clip-Mesa_de_trabajo_1)">
+    <rect width="180" height="91" fill="#464646"/>
+    <g id="Grupo_115" data-name="Grupo 115" transform="translate(-55 -709)" opacity="0.9">
+      <g transform="matrix(1, 0, 0, 1, 55, 709)" filter="url(#Rectángulo_5)">
+        <rect id="Rectángulo_5-2" data-name="Rectángulo 5" width="180" height="91" rx="4" fill="url(#linear-gradient)"/>
+      </g>
+      <circle id="Elipse_4" data-name="Elipse 4" cx="11" cy="11" r="11" transform="translate(44 744)" fill="#464646"/>
+      <circle id="Elipse_5" data-name="Elipse 5" cx="11" cy="11" r="11" transform="translate(224 744)" fill="#464646"/>
+      <g id="Rectángulo_25" data-name="Rectángulo 25" transform="translate(77 718)" fill="none" stroke="#f8f8f8" stroke-width="1" stroke-dasharray="5 3">
+        <rect width="139" height="74" rx="3" stroke="none"/>
+        <rect x="0.5" y="0.5" width="138" height="73" rx="2.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="955" height="245" viewBox="0 0 955 245">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 327 84">
+      <image width="327" height="84" xlink:href="unnamed%20copia-image.png"/>
+    </pattern>
+  </defs>
+  <rect id="unnamed_copia" data-name="unnamed copia" width="955" height="245" fill="url(#pattern)"/>
+</svg>

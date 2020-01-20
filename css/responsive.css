@@ -1,0 +1,265 @@
+@media(max-width:1020px){
+    .scaledCtrl{
+        transform: scale(.9,.9) !important;
+        /* border: solid red 1px; */
+    }
+
+    .containerDataCtrl{
+        padding-left: 60px;
+    }
+}
+
+@media(max-width:1005px){
+    .wrapperFlexCtrl{
+        flex-wrap: wrap;
+    }
+    .row{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media(max-width:841px){
+    .mainText2{
+        text-align: right;
+        padding-right: 6px;
+    }
+
+    .CTActrl{
+        width: 80%;
+        float: left;
+    }
+
+    .ticketContainer{
+        margin-left: 50px;
+    }
+
+    .containerDataCtrl{
+        padding-left: 30px;
+    }
+
+    .mainText,.mainText2{
+        font-weight: 300;
+        padding-right: 20px;
+    }
+    .containerDataCtrl{
+        padding-left: 50px;
+        transform: scale(.9,.9);
+    }
+}
+
+@media(max-width:838px){
+    .grayCirclectrl{
+        transition: all ease-in-out .5s;
+        transform: scale(.6,.6);
+    }
+    .bodyAppCtrl{
+        padding-top: 50px;
+    }
+}
+
+@media(max-width:766px){
+    .flexColmnCtrl{
+       flex-direction: column;
+    }
+    .ticketContainer{
+        margin-left: 0px;
+    }
+    .prdctDescCtrl{
+        padding-left: 90px;
+        padding-top: 15px;
+    }
+    .containerDataCtrl{
+        width: 500px;
+        /* border: solid red 1px; */
+        float: left;
+    }
+    .mainText,.mainText2{
+        font-weight: 600;
+    }
+    .mainText2{
+        text-align: left;
+    }
+    .nameDataCtrl,.valueDataCtrl{
+        
+    }
+
+    .containerDataCtrl{
+        margin-top: 30px;
+    }
+    .prdctContainerCtrl{
+        transform: scale(.8 ,.8);
+    }
+}
+
+
+
+@media(max-width:763px){
+    .fotoUsrCtrl{
+        width: 100px;
+        left: -10px;
+     }
+    .tcktAbtContainer{
+        border-radius: 0px;
+        max-height: 200px !important;
+    }
+    .grayCirclectrl{
+        display: none;
+    }
+    .justCnt_center{
+        justify-content: space-evenly;
+    }
+
+    .nameDataCtrl,.valueDataCtrl{
+        text-align: center;
+    }
+    .CTActrl{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+
+@media(max-width:727px){
+    .prdctContainerCtrl{
+        margin-left: -20px;
+        /* border: solid red 1px; */
+        width: 120%;
+     }
+     .row{
+         padding-left: 20px;
+         padding-right: 20px;
+     }
+     .ticketContainer{
+         width: 100%;
+     }
+}
+
+@media(max-width:635px){
+    .ticketContainer{
+        transform: scale(.75,.75) !important;
+        
+     }
+     .prdctDescCtrl{
+        /* border: solid 1px red; */
+        height: 275px;
+        overflow-y: scroll;
+     }
+     .mainText2,.mainText{
+         font-weight: 400;
+     }
+     .prdctDescCtrl{
+         font-size: 16px;
+     }
+
+}
+
+@media(max-width:574px){
+    .fotoUsrCtrl{
+       width: 90px;
+       left: 20px;
+       z-index: 9;
+       border-radius:8px;
+       /* box-shadow: none; */
+    }
+
+    .textContainer{
+        padding-left: 110px;
+    }
+}
+
+@media(max-width:534px){
+   .ticketContainer{
+       width: 100% !important;
+       background: none ;
+       /* background-color: black; */
+       background-image: linear-gradient(to right top,var(--t_green),var(--t_blue),var(--t_purple));
+       color: white !important;
+       height: auto;
+       margin-bottom: 10px;
+       
+   }
+  
+   .CTActrl{
+       width: 100%;
+   }
+   .ticketContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .prdctContainerCtrl{
+        /* border: solid red 1px; */
+        width: 100%;
+        margin: 0;
+    }
+    .mainText2{
+        font-size: 23px;
+        padding-left: 30px;
+    }
+    .prdctDescCtrl,.mainText{
+        /* border: solid 1px red; */
+        padding-right: 30px;
+    }
+    .containerDataCtrl{
+        /* margin-top: -20px; */
+    }
+    .CTActrl{
+        margin-top: 20px;
+    }
+
+}
+
+@media(max-width:520px){
+    .ticketContainer{
+        height: auto !important;
+        padding-bottom: 25px;
+        width: 90% !important;
+    }
+    .CTActrl{
+        width: 100% !important;
+        margin: 0px;
+        float: center;
+    }
+    
+ }
+
+
+ @media(max-width:461px){
+    .ticketContainer{
+        height: auto !important;
+        padding-bottom: 25px;
+        width: 100% !important;
+    }
+    .prdctDescCtrl{
+        font-size: 17px;
+        width: 100%;
+    }
+    .containerDataCtrl{
+        /* border: solid red 1px; */
+        width: 100%;
+        margin-top: 0px;
+        height: auto;
+        
+    }
+    .CTActrl{
+        margin-top: 20px;
+    }
+    .containerDataCtrl{
+        /* border: solid red 1px; */
+        width: 100%;
+    }
+
+    .prdctDescCtrl{
+        min-height: 300px !important;
+        /* border: red solid 1px !important; */
+    }
+   
+ 
+ }
+
+
+@media(max-width:404px){
+    .ticketContainer{
+        padding-bottom: 18px;
+    }
+ }
