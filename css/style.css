@@ -661,3 +661,118 @@ text-align: center;
 border-radius: 20px;
 margin-top: 20px;
 }
+
+
+
+
+/* estilos login */
+
+.paddngTtlCtrl{
+    padding-left: 90px;
+}
+
+.notifResmCtrl{
+    display: block;
+    width: 100%;
+    /* border: solid white 1px; */
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 40px;
+    color: white;
+    margin-bottom: 9px;
+}
+
+.darkCardBdyCtrl{
+    background-color: var(--t_gray_d);
+    color: white;
+    border: none;
+    font-size: 12px;
+    max-height: 250px;
+    overflow-y: scroll;
+}
+
+.headerBlackCtrl, .card{
+    background-color: var(--t_gray_d);
+    color: white;
+    border-color: var(--t_gray_d) !important;
+    border-bottom: var(--t_blue) solid 1px !important;
+}
+
+.vtnAcrdnCtrl{
+    /* border: solid red 1px; */
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white !important;
+    font-size: 15px;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.vtnAcrdnCtrl:hover{
+    text-decoration: none !important;
+}
+
+
+.activeMsgCtrl{
+    border-left: solid 3px var(--t_green);
+}
+
+.tabCtrl a,.panelTabCtrl, .tab-content{
+    background-color: var(--t_gray_d)!important;
+    color: white;
+    border: none;
+    border-color: var(--t_gray_d) !important;
+    
+}
+
+.tabCtrl a{
+    margin-right: 2px;
+}
+
+.panelTabCtrl{
+    height: 315px;
+    border-color: var(--t_gray_d) !important;
+    border-radius: 0px 0px 3px 3px;
+    
+    
+}
+
+.nav-tabs{
+    border-color: var(--t_gray_d) !important;
+}
+
+.panelTabCtrl table{
+    border-color: var(--t_gray_d) !important;
+    color: white !important;
+    font-size: 13px !important;
+}
+
+.table thead th{
+    border-color: var(--t_gray_d) !important;
+}
+
+.table td, .table th{
+    border-color: var(--t_gray_d) !important;
+}
+
+.tab-content{
+    /* border: solid red 1px !important; */
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 0px 0px 3px 3px;
+}
+
+.panelTabCtrl{
+    /* border: yellowgreen solid 1px !important; */
+    overflow-y: scroll !important;
+}
+
+.accordeonContainerCtrl{
+    /* border: solid red 1px; */
+    height: 370px;
+    overflow-y: scroll;
+}

@@ -17,6 +17,12 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    .respTbleCtrl{
+        margin-top: 60px;
+    }
+    .paddngTtlCtrl{
+        padding-left: 20px;
+    }
 }
 
 @media(max-width:841px){
