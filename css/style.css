@@ -734,7 +734,7 @@ margin-top: 20px;
 }
 
 .panelTabCtrl{
-    height: 315px;
+    height: 420px;
     border-color: var(--t_gray_d) !important;
     border-radius: 0px 0px 3px 3px;
     
@@ -773,6 +773,151 @@ margin-top: 20px;
 
 .accordeonContainerCtrl{
     /* border: solid red 1px; */
-    height: 370px;
+    height: 470px;
     overflow-y: scroll;
+}
+
+.counterCtrl{
+    display: block;
+    width: 100%;
+    color: var(--t_green);
+    font-weight: 400;
+    font-size: 15px;
+    text-align: right;
+}
+
+/* estilos formulario compra  */
+
+.formContainerCtrl{
+    background-color: var(--t_gray_d);
+    border-radius: 7px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.inputFormCtrl{
+    border: var(--t_purple) solid 2px;
+    border-radius: 30px;
+    margin-top: 8px;
+}
+
+.inputFormCtrl::-webkit-input-placeholder { 
+    font-weight: 100;
+} 
+ 
+.inputFormCtrl::-moz-placeholder { 
+    font-weight: 100;
+ } 
+ 
+.inputFormCtrl::-moz-placeholder { 
+    font-weight: 100;
+} 
+ 
+.inputFormCtrl::-ms-input-placeholder { 
+    font-weight: 100;
+}
+
+.addonCtrl{
+    background-color: var(--t_purple);
+    border-color: var(--t_purple);
+    color: white;
+    height: 38px;
+    margin-top: 8px;
+    border-radius: 0px 20px 20px 0px;
+    font-size: 10px;
+    padding-right: 18px;
+}
+
+.margndTopCtrl{
+    margin-top: 40px;
+}
+
+.legalsDetaildCtrl{
+    display: block;
+    width: 100%;
+    color: white;
+    font-size: 10px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.whiteTxtCtrl{
+    color: white;
+}
+
+.mrgnCtrl{
+    margin-top: 15px;
+}
+
+.totalCtrl{
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 200;
+    border-top: solid white 1px;
+}
+
+.totalCtrl span{
+    font-weight: 500;
+    font-size: 21px;
+    padding-top: 29px;
+}
+
+.pddrCtrl{
+    padding: 20px;
+}
+
+.tittleTableCtrl{
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-size: 10px;
+    /* border: solid yellowgreen 1px; */
+}
+
+.cardWidthCtrl{
+    width: 100% !important;
+}
+
+.noPddngCtrl{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    width: 100% !important;
+
+}
+.rowTableCtrl,.rowTableCtrl:hover,.rowTableCtrl:focus{
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--t_green);
+    font-size: 12px;
+ /* border: solid red 1px; */
+ padding-right: 8px !important;
+    padding-left: 8px !important;
+}
+
+.ticketHistCtrl{
+    background-color: rgba(0,0,0,.5);
+    font-size: 14px;
+    padding: 3px 8px 3px 8px;
+    box-shadow: 0px 0px 6px rgba(0,0,0,.3);
+    border-radius: 30px;
+}
+
+.ctaWidthCtrl{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.carAccordionCtrl .card{
+    border-bottom: none !important;
 }

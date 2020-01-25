@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- links -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/animations.css" />
+
+    <!-- scripts  -->
+
+    <title>Carrito</title>
+  </head>
+  <body>
+    <!-- navegación -->
+    <nav class="navbar navbar-expand-lg navBarCtrl sticky-top">
+      <a class="navbar-brand" href="#"
+        ><img src="./media/logo.png" alt="" class="img-fluid"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link" href="./about.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Catálogo</a>
+          </li>
+          <li class="nav-item justify-content-end">
+            <a class="nav-link" href="#">Hola Enrique <i class="fa fa-user-circle"></i></a>
+          </li>
+          <li class="nav-item justify-content-end">
+            <a class="nav-link" href="#"> <i class="fa fa-shopping-cart"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid bodyAppCtrl">
+      <!-- titulo de sección  -->
+      <div class="row">
+        <!-- <div class="col-lg-2 col-md-1 col-sm-1 ">&nbsp;</div> -->
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 paddngTtlCtrl">
+          <div class="flexRowCtrl">
+            <h1 class="tittleSection">Tu Carrito</h1>
+            <div class="colorDivider">&nbsp;</div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-1 col-sm-1 ">&nbsp;</div>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12">
+          <span class="notifResmCtrl">Información de pago</span>
+          <div class="container-fluid">
+          <div class="row formContainerCtrl">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <input type="text" class="form-control inputFormCtrl" placeholder="Nombre" aria-label="" aria-describedby="basic-addon1">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <input type="text" class="form-control inputFormCtrl" placeholder="Apellido Paterno" aria-label="" aria-describedby="basic-addon1">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <input type="text" class="form-control inputFormCtrl" placeholder="Apellido Materno" aria-label="" aria-describedby="basic-addon1">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <input type="text" class="form-control inputFormCtrl" placeholder="Teléfono" aria-label="" aria-describedby="basic-addon1">
+            </div>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <input type="text" class="form-control inputFormCtrl" placeholder="Correo Electrónico" aria-label="" aria-describedby="basic-addon1">
+            </div>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="input-group">
+                <input type="text" class="form-control inputFormCtrl" placeholder="Número de tarjeta" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <span class="input-group-text addonCtrl" id="basic-addon2">VISA</span>
+                </div>
+              </div>
+              <!-- <input type="text" class="form-control inputFormCtrl" placeholder="Número de tarjeta" aria-label="" aria-describedby="basic-addon1"> -->
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <input type="text" class="form-control inputFormCtrl" placeholder="Exp." aria-label="" aria-describedby="basic-addon1">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <input type="text" class="form-control inputFormCtrl" placeholder="CVV" aria-label="" aria-describedby="basic-addon1">
+            </div>
+
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12"><!-- switch -->
+              <div class="custom-control custom-switch mrgnCtrl">
+                <input type="checkbox" class="custom-control-input " id="customSwitch1">
+                <label class="custom-control-label whiteTxtCtrl" for="customSwitch1">Guardar éste método de pago</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <span class="notifResmCtrl margndTopCtrl">Datos de facturación</span>
+          <div class="container-fluid">
+          <div class="row formContainerCtrl">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <input type="text" class="form-control inputFormCtrl" placeholder="RFC" aria-label="" aria-describedby="basic-addon1">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <input type="text" class="form-control inputFormCtrl" placeholder="Calle" aria-label="" aria-describedby="basic-addon1">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <input type="text" class="form-control inputFormCtrl" placeholder="Colonia" aria-label="" aria-describedby="basic-addon1">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <input type="text" class="form-control inputFormCtrl" placeholder="Alcaldía/Municipio" aria-label="" aria-describedby="basic-addon1">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <input type="text" class="form-control inputFormCtrl" placeholder="Municipio" aria-label="" aria-describedby="basic-addon1">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <input type="text" class="form-control inputFormCtrl" placeholder="Ciudad" aria-label="" aria-describedby="basic-addon1">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <input type="text" class="form-control inputFormCtrl" placeholder="Estado" aria-label="" aria-describedby="basic-addon1">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <input type="text" class="form-control inputFormCtrl" placeholder="C.P." aria-label="" aria-describedby="basic-addon1">
+            </div>
+          </div>
+        </div>
+
+        <span class="legalsDetaildCtrl">DETALLES: Lorem ipsum dolor sit amet consectetur adipisicing elit. Non alias voluptates mollitia veniam nulla similique sapiente voluptatem incidunt labore omnis, consectetur exercitationem corrupti maiores quisquam quis officia neque voluptate! Ab. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus sapiente tempora doloribus repellendus voluptatum autem aliquam tempore labore adipisci illum, animi consequuntur nam voluptatibus minima magnam asperiores. Quos, ea reiciendis!</span>
+
+        
+          
+        </div>
+        <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12 ">
+          <span class="notifResmCtrl">Resumen de la compra</span>
+          <div class="container-fluid">
+            <div class="row formContainerCtrl pddrCtrl">
+              <div class="tittleTableCtrl">
+                <span>CANT</span>
+                <span>PREMIO</span>
+                <span>PRECIO</span>
+                <span>TIME</span>
+                <span>ELIMINAR</span>
+              </div>
+              <div class="accordion cardWidthCtrl carAccordionCtrl" id="accordionExample">
+                <div class="card " >
+                  <div class="card-header noPddngCtrl" id="headingOne">
+                      <button class="btn btn-link  rowTableCtrl" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <span>5</span>
+                        <span>iPhone 7 Plus</span>
+                        <span>$234.45 c/u</span>
+                        <span>00:07:00</span>
+                        <span><i class="fa fa-times-circle"></i></span>
+                      </button>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <span class="ticketHistCtrl">001 <i class="fa fa-times-circle"></i></span>
+                      <span class="ticketHistCtrl">023 <i class="fa fa-times-circle"></i></span>
+                      <span class="ticketHistCtrl">012 <i class="fa fa-times-circle"></i></span>
+                      <span class="ticketHistCtrl">017 <i class="fa fa-times-circle"></i></span>
+                      <span class="ticketHistCtrl">030 <i class="fa fa-times-circle"></i></span>
+      
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header noPddngCtrl" id="headingTwo">
+                      <button class="btn btn-link collapsed rowTableCtrl" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <span>2</span>
+                        <span>iPad 11" </span>
+                        <span>$434.45 c/u</span>
+                        <span>00:07:00</span>
+                        <span><i class="fa fa-times-circle"></i></span>
+                      </button>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <span class="ticketHistCtrl">001 <i class="fa fa-times-circle"></i></span>  
+                     <span class="ticketHistCtrl">030 <i class="fa fa-times-circle"></i></span>
+      
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header noPddngCtrl" id="headingThree">
+                      <button class="btn btn-link collapsed rowTableCtrl" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <span>5</span>
+                        <span>Viaje a las Vegas</span>
+                        <span>$1,934.45 c/u</span>
+                        <span>00:07:00</span>
+                        <span><i class="fa fa-times-circle"></i></span>
+                      </button>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <span class="ticketHistCtrl">001 <i class="fa fa-times-circle"></i></span>
+                      <span class="ticketHistCtrl">023 <i class="fa fa-times-circle"></i></span>
+                      <span class="ticketHistCtrl">012 <i class="fa fa-times-circle"></i></span>
+                      <span class="ticketHistCtrl">017 <i class="fa fa-times-circle"></i></span>
+                      <span class="ticketHistCtrl">030 <i class="fa fa-times-circle"></i></span>
+                          </div>
+                  </div>
+                </div>
+              </div>
+              <span class="totalCtrl">total &nbsp;&nbsp;<span>$946.87</span> mxn</span>
+            </div>
+            <span class="CTActrl ctaWidthCtrl animated fadeIn slowest"
+                >IR AL SORTEO</span
+              >
+          </div>
+        </div>
+      </div>
+
+     
+    </div>
+    <!-- fin del contenedor  -->
+
+    <div class="container-fluid footerCntnrCtrl">
+      <div class="row">
+        <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+          <span class="footerNmCtrl">social</span>
+          <span>
+            <ul class="listFooterCtrl">
+              <li class="brdrdLftCtrl">Facebook</li>
+              <li class="brdrdLftCtrl">Twitter</li>
+              <li class="brdrdLftCtrl">Instagram</li>
+            </ul>
+          </span>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+          <span class="footerNmCtrl">CONTACTO</span>
+          <ul class="listFooterCtrl">
+            <li class="brdrdLftCtrl">Contacto</li>
+            <li class="brdrdLftCtrl">Soporte</li>
+            <li class="brdrdLftCtrl">Registro</li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+          <span class="footerNmCtrl">LEGALES</span>
+          <ul class="listFooterCtrl">
+            <li class="brdrdLftCtrl">Términos y condiciones</li>
+            <li class="brdrdLftCtrl">Aviso de privacidad</li>
+            <li class="brdrdLftCtrl">Métodos de pago</li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6"></div>
+      </div>
+    </div>
+
+    <script src="./js/actions.js"></script>
+    <script src="https://kit.fontawesome.com/dc01447067.js" crossorigin="anonymous"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
