@@ -566,22 +566,40 @@ margin-top: 5px;
 .footerNmCtrl{
     color: white;
     text-transform: uppercase;
-    font-weight: 200;
+    font-weight: 400;
     /* border: solid yellowgreen 1px; */
     margin-bottom: 15px !important;
+    font-size: 13px;
+    margin-top: 15px !important;
+    padding-top: 15px !important;
 }
 
 .listFooterCtrl{
     list-style-type: none;
 }
 
+.pddngBottom_sm{
+    padding-bottom: 15px;;
+}
+
 .brdrdLftCtrl{
+    display: block;
+    width: 100%;
     border-left: solid 3px var(--t_green);
     padding-left: 6px;
     font-weight: 100;
     font-size: 13px;
     text-transform: capitalize;
     margin-top: 7px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+
+.simpleTxtFooter{
+    font-weight: 100;
+    font-size: 13px;
+    padding-top: 9px;
 }
 
 
@@ -922,8 +940,49 @@ margin-top: 20px;
     border-bottom: none !important;
 }
 
+.flexColCtrl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
 
+.dividerFotter{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 200px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: var(--t_green);
+}
 
+.logosCntnrCtrl{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.imgLogoFooterCtrl{
+    max-width: 90px;
+    margin: 5px;
+}
+
+.fttrCrdCtrl{
+    max-width: 45px !important;
+}
+
+.rightsCtrl{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 15px;
+}
 
 /* estilos elemento flotante  */
 
