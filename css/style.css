@@ -922,12 +922,40 @@ margin-top: 20px;
     padding-left: 8px !important;
 }
 
+.badgesCntnrCtrl{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
 .ticketHistCtrl{
     background-color: rgba(0,0,0,.5);
     font-size: 14px;
     padding: 3px 8px 3px 8px;
     box-shadow: 0px 0px 6px rgba(0,0,0,.3);
     border-radius: 30px;
+    margin: 2px !important;
+}
+
+.dataFieldCtlr{
+    width: 100px;
+    white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 4px;
+}
+
+.dataFieldCtlr_numb{
+    width: 50px;
+    text-align: left;
+}
+
+.dataFieldCtlr_ctrl{
+    width: 50px;
+    text-align: right;
 }
 
 .ctaWidthCtrl{
