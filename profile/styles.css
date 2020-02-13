@@ -7,6 +7,11 @@
 }
 
 /* repeated classes  */
+body{
+    font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
 a,a:hover.a:active,a:focus{
     color: white !important;
     text-decoration: none !important;
@@ -28,8 +33,9 @@ body{
 
 /* estilos del modal  */
 
-.modal-header{
+.modal-header,.modal-dialog,.modal-content{
     background-color: var(--t_gray_d);
+    border-color: var(--t_gray_d);
     color: white;
     border-color: var(--t_gray) !important;
     border-radius: 8px 8px 0px 0px !important;
@@ -91,3 +97,240 @@ body{
     color: black !important;
 }
 
+
+/* estilos del navbar  */
+
+.navBarBackCtrl{
+    background-color: var(--t_gray_d);
+}
+
+.imgLogoNavCtrl{
+    max-width: 100px;
+}
+
+.navBarCtrl .nav-item, .navBarCtrl .form-inline{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.profileCntnrCtrl{
+    /* border: solid red 1px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.profileCtrl{
+    display: flex;
+    flex-direction: column;
+}
+
+.profileCtrl span{
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    color: white;
+    text-align: right;
+    padding-right: 8px;
+    font-weight: 300;
+}
+
+.profileCtrl a{
+    display: block;
+    width: 100%;
+    font-size: 10px;
+    color: var(--t_green) !important;
+    text-align: right;
+    padding-right: 8px;
+    font-weight: 300;
+}
+
+.avatarCtrl{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    border: solid 1px black;
+}
+
+.navbar-toggler-icon{
+    color: white;
+    margin-top: 6px;
+}
+
+
+/* estilos de los tabs en el perfil */
+
+.navLinksProfileCtrl{
+    /* border: solid red 1px; */
+    width: 100%;
+    display: flex !important;
+    justify-content: space-evenly !important;
+    align-content: center;
+    align-items: center;
+    border-bottom: solid var(--t_gray_d) 2px;
+}
+
+.navLinksProfileCtrl .nav-link{
+    width: 200px;
+
+}
+
+.navLinksProfileCtrl .active{
+    background-color: var(--t_gray_d) !important;
+    border-radius: 6px 30px 0px 0px;
+    transition: all ease-in-out .5s;
+}
+
+.tittleSectProfile{
+    display: block;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 13px;
+    
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.hDividerClrCtrl{
+    width: 100%;
+    height: 3px;
+    border-radius: 9px;
+    background-image: linear-gradient(to right bottom, var(--t_green),var(--t_blue));
+    margin-bottom: 8px;
+}
+
+.cardConfgCtrl{
+    background-color: var(--t_gray_d);
+    color: white;
+    border-color: var(--t_gray_d);
+}
+
+.cardConfgCtrl .card-header{
+    background-color: var(--t_gray_d);
+    color: white;
+    /* border-color: black!important; */
+    border-bottom: solid 1px black;
+}
+
+.cardConfgCtrl .card-header span{ 
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.cardConfgCtrl .card-body{
+    background-color: var(--t_gray);
+}
+
+.fieldNameConfCtrl{
+    display: block;
+    width: 100%;
+    font-weight: 300;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+
+.cntnrCTAconfCtrl{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.CTAconfCtrl{
+    color: white;
+    width: 200px;
+    background-color: black;
+    text-align: center;
+    padding:5px 10px 5px 10px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: solid 2px var(--t_green);
+}
+
+.sectSubCtrl{
+    display: block;
+    color: rgba(255,255,255,.6);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+    border-top: solid 1px rgba(0,0,0,.2);
+}
+
+.txtInstctnCtrl{
+    font-size: 12px;
+}
+
+.stepConfCtrl{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.linkConfCtrl{
+    color: var(--t_green);
+    text-transform: uppercase;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.spanNotfcCtrl{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.bdgCounterCtrl{
+    max-width: 30px;
+    background-image: linear-gradient(to right bottom, var(--t_green),var(--t_blue));
+    /* color: var(--t_gray_d); */
+    color: black;
+    font-weight: 400;
+    text-shadow: 0px 0px 9px rgba(0,0,0,.7);
+}
+.bdgCounterCtrl_newMsg{
+    max-width: 50px;
+    background-image: linear-gradient(to right bottom, var(--t_green),var(--t_blue));
+    /* color: var(--t_gray_d); */
+    color: black;
+    font-weight: 400;
+    text-shadow: 0px 0px 9px rgba(0,0,0,.7);
+}
+
+.msgContainer{
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.msgHeadCntnrCtrl{
+    background-color: rgba(0,0,0,.5);
+    padding: 5px;
+    border-radius: 7px 30px 7px 7px;
+    padding-left: 10px;
+    cursor: pointer;
+    margin-bottom: 3px;
+}
+
+.msgEmisorName{
+    display: block;
+    width: 100%;
+
+}
+
+.msgDateSend{
+    display: block;
+    width: 100%;
+    font-size: 10px;
+    color: rgba(255,255,255,.4);
+}

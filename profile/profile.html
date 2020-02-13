@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700,900&display=swap"
+    rel="stylesheet"
+  />
+    <!-- custom links  -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Profile</title>
+</head>
+<body class="bodyAppCtrl">
+
+    <!-- nav menu  -->
+    <nav class="navbar navbar-expand-lg navBarBackCtrl fixed-top navBarCtrl">
+        <a class="navbar-brand" href="#"> <img src="../media/logo.png" alt="" class="imgLogoNavCtrl"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"> <i class="fa fa-bars"></i></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Catálogo</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0 dropdown profileCntnrCtrl">
+            <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 -->
+                <div class="profileCtrl">
+                    <span>Hola Enrique</span>
+                    <a href="#">Ingresar Saldo</a>
+                </div>
+                <div class="avatarCtrl">&nbsp;</div>
+              <!-- </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Ingresar Saldo</a>
+              </div> -->
+          </form>
+        </div>
+      </nav>
+    
+      <div class="container-fluid">
+          <div class="row">
+            <ul class="nav nav-pills  navLinksProfileCtrl" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Mi cuenta</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Banca</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Historial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Juego responsable</a>
+                  </li>
+              </ul>
+              
+          </div>
+      </div>
+
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active container-fluid" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row">
+                        <div class="col-lg-1 col-md-1"></div>
+                        <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+                            <span class="tittleSectProfile">Configuración de cuenta</span>
+                            <div class="hDividerClrCtrl">&nbsp;</div>
+                            <div class="accordion" id="accordionExample">
+<!-- datos de contacto  -->
+                                <div class="card cardConfgCtrl">
+                                  <div class="card-header" id="headingOne">
+                                    <span class="" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                      Datos de contacto
+                                    </span>
+                                  </div>
+                              
+                                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="form-group">
+                                            <label for="" class="fieldNameConfCtrl">Número telefónico</label>
+                                            <input type="email" class="form-control" id="" placeholder="">
+                                          </div>
+                                          <div class="form-group">
+                                            <label for=""class="fieldNameConfCtrl">Correo electrónico</label>
+                                            <input type="email" class="form-control" id="" placeholder="">
+                                          </div>
+                                          <div class="form-group">
+                                            <label for=""class="fieldNameConfCtrl">Empleo</label>
+                                            <input type="email" class="form-control" id="" placeholder="">
+                                          </div>
+                                          <div class="cntnrCTAconfCtrl">
+                                              <span class="CTAconfCtrl">actualizar</span>
+                                          </div>
+                                    </div>
+                                  </div>
+                                </div>
+<!-- direccion postal  -->
+                                <div class="card cardConfgCtrl">
+                                  <div class="card-header" id="headingTwo">
+                                    <span class="" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                      Dirección Postal
+                                    </span>
+                                  </div>
+                                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="form-group">
+                                            <label for="" class="fieldNameConfCtrl">Calle</label>
+                                            <input type="email" class="form-control" id="" placeholder="">
+                                          </div>
+                                          <div class="form-group">
+                                            <label for=""class="fieldNameConfCtrl">Colonia</label>
+                                            <input type="email" class="form-control" id="" placeholder="">
+                                          </div>
+                                          <div class="form-group">
+                                            <label for=""class="fieldNameConfCtrl">Alcaldía</label>
+                                            <input type="email" class="form-control" id="" placeholder="">
+                                          </div>
+                                          <div class="form-group">
+                                            <label for=""class="fieldNameConfCtrl">Ciudad</label>
+                                            <input type="email" class="form-control" id="" placeholder="">
+                                          </div>
+                                          <div class="form-group">
+                                            <label for=""class="fieldNameConfCtrl">Código Postal</label>
+                                            <input type="email" class="form-control" id="" placeholder="">
+                                          </div>
+                                          <div class="cntnrCTAconfCtrl">
+                                              <span class="CTAconfCtrl">actualizar</span>
+                                          </div>
+                                    </div>
+                                  </div>
+                                </div>
+<!-- preferencias  -->
+                                <div class="card cardConfgCtrl">
+                                    <div class="card-header" id="headingTwo">
+                                      <span class="" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Preferencias
+                                      </span>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                      <div class="card-body">
+                                        <div class="form-group">
+                                            <label for="" class="fieldNameConfCtrl">Idioma</label>
+                                            <select class="custom-select">
+                                                <option selected>Seleccionar</option>
+                                                <option value="1">Español</option>
+                                                <option value="2">Inglés</option>
+                                                <option value="3">Aleman</option>
+                                                <option value="3">...</option>
+                                              </select>
+                                          </div>
+                                          <div class="form-group">
+                                            <label for="" class="fieldNameConfCtrl">Uso Horario</label>
+                                            <select class="custom-select">
+                                                <option selected>Seleccionar</option>
+                                                <option value="1">GMT-6</option>
+                                                <option value="2">GMT-5</option>
+                                                <option value="3">GMT-4</option>
+                                                <option value="3">...</option>
+                                              </select>
+                                          </div>
+                                          <div class="form-group">
+                                            <label for="" class="fieldNameConfCtrl">Formato de cuotas</label>
+                                            <select class="custom-select">
+                                                <option selected>Seleccionar</option>
+                                                <option value="1">Fraccional</option>
+                                                <option value="2">Decimal</option>
+                                                <option value="3">Americano</option>
+                                                <option value="3">...</option>
+                                              </select>
+                                          </div>
+                                          <div class="form-group">
+                                            <label for="" class="fieldNameConfCtrl">Tiempo máximo de inactividad</label>
+                                            <select class="custom-select">
+                                                <option selected>Seleccionar</option>
+                                                <option value="1">20 minutos</option>
+                                                <option value="2">1 hora</option>
+                                                <option value="3">2 horas</option>
+                                                <option value="3">...</option>
+                                              </select>
+                                          </div>
+                                          <div class="form-group row">
+                                              <div class="col-lg-6 col-md-6 col-sm-6">
+                                                <label for=""class="fieldNameConfCtrl">Comunicación externa</label>
+                                                <span class="sectSubCtrl">Notificaciones</span>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1">
+                                                    <label class="form-check-label" for="inlineCheckbox1">SI</label>
+                                                  </div>
+                                                  <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2">
+                                                    <label class="form-check-label" for="inlineCheckbox2">NO</label>
+                                                  </div>
+                                                  <span class="sectSubCtrl">SMS</span>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1">
+                                                    <label class="form-check-label" for="inlineCheckbox1">SI</label>
+                                                  </div>
+                                                  <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2">
+                                                    <label class="form-check-label" for="inlineCheckbox2">NO</label>
+                                                  </div>
+                                                  <span class="sectSubCtrl">Correo electrónico</span>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1">
+                                                    <label class="form-check-label" for="inlineCheckbox1">SI</label>
+                                                  </div>
+                                                  <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2">
+                                                    <label class="form-check-label" for="inlineCheckbox2">NO</label>
+                                                  </div>
+                                              </div>
+                                              <div class="col-lg-6 col-md-6 col-sm-6">
+                                                <label for=""class="fieldNameConfCtrl">Comunicación interna</label>
+                                                <span class="sectSubCtrl">Mensajes en TicketCrush</span>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1">
+                                                    <label class="form-check-label" for="inlineCheckbox1">SI</label>
+                                                  </div>
+                                                  <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2">
+                                                    <label class="form-check-label" for="inlineCheckbox2">NO</label>
+                                                  </div>
+                                                  <span class="sectSubCtrl">Notificaciones Push</span>
+                                                  <div class="form-check form-check-inline">
+                                                      <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1">
+                                                      <label class="form-check-label" for="inlineCheckbox1">SI</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                      <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2">
+                                                      <label class="form-check-label" for="inlineCheckbox2">NO</label>
+                                                    </div>
+                                              </div>
+                                          </div>
+                                          <div class="cntnrCTAconfCtrl">
+                                              <span class="CTAconfCtrl">actualizar</span>
+                                          </div>
+                                      </div>
+                                    </div>
+                                  </div>
+<!-- número de seguridad  -->
+                                  <div class="card cardConfgCtrl">
+                                    <div class="card-header" id="headingTwo">
+                                      <span class="" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Número de Seguridad
+                                      </span>
+                                    </div>
+                                    <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                      <div class="card-body">
+                                        <div class="form-group">
+                                            <label for=""class="fieldNameConfCtrl">Número actual</label>
+                                            <input type="email" class="form-control" id="" placeholder="">
+                                          </div>
+                                          <div class="form-group">
+                                            <label for=""class="fieldNameConfCtrl">Nuevo número</label>
+                                            <input type="email" class="form-control" id="" placeholder="">
+                                          </div>
+                                          <div class="form-group">
+                                            <label for=""class="fieldNameConfCtrl">Confirmar nuevo número</label>
+                                            <input type="email" class="form-control" id="" placeholder="">
+                                          </div>
+                                          <div class="cntnrCTAconfCtrl">
+                                            <span class="CTAconfCtrl">actualizar</span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+<!-- verificación  -->
+                                  <div class="card cardConfgCtrl">
+                                    <div class="card-header" id="headingTwo">
+                                      <span class="" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Verificación
+                                      </span>
+                                    </div>
+                                    <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                      <div class="card-body">
+                                        <span class="sectSubCtrl">Verificación de su cuenta</span>
+                                        <p class="txtInstctnCtrl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta corrupti, debitis sed omnis id veritatis tempora labore ea placeat iure. Commodi a dignissimos ut provident optio ipsam animi corporis rerum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, tempora magnam? Similique laborum sint omnis ullam, praesentium sequi blanditiis quia numquam voluptates totam saepe sunt error vitae, voluptatibus eaque consectetur.</p>
+                                        <span class="stepConfCtrl">Paso 1</span>
+                                        <div class="form-group">
+                                            <label for=""class="fieldNameConfCtrl">Tipo de Documento</label>
+                                            <select class="custom-select">
+                                                <option selected>Seleccionar</option>
+                                                <option value="1">Pasaporte</option>
+                                                <option value="2">Licencia de conducir</option>
+                                                <option value="3">Documento de identificación</option>
+                                                <option value="3">...</option>
+                                              </select>
+                                          </div>
+                                          
+                                        <span class="stepConfCtrl">Paso 2</span>
+                                        <div class="form-group">
+                                            <label for=""class="fieldNameConfCtrl">código de verificación postal (PVC)</label>
+                                            <input type="text" class="form-control" id="" placeholder="">
+                                            <small class="linkConfCtrl">solicitar PVC</small>
+                                          </div>
+                                          <div class="cntnrCTAconfCtrl">
+                                            <span class="CTAconfCtrl">Enviar</span>
+                                        </div>
+
+                                        <span class="sectSubCtrl">Verificación postal PVC</span>
+                                        <p class="txtInstctnCtrl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, esse id commodi nam fuga minus nulla molestias temporibus corporis culpa non eveniet, voluptas pariatur quidem beatae placeat exercitationem, eum consequatur.</p>
+                                        <div class="form-group">
+                                            <label for=""class="fieldNameConfCtrl">código de verificación postal (PVC)</label>
+                                            <input type="text" class="form-control" id="" placeholder="">
+                                            <small class="linkConfCtrl">solicitar PVC</small>
+                                          </div>
+                                          <div class="cntnrCTAconfCtrl">
+                                            <span class="CTAconfCtrl">Verificar</span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                
+                              </div>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+                            <span class="tittleSectProfile">Mensajes</span>
+                            <div class="hDividerClrCtrl">&nbsp;</div>
+                            <div class="accordion" id="accordionExample">
+<!-- enviar mensaje  -->
+                                <div class="card cardConfgCtrl">
+                                    <div class="card-header" id="headingOne">
+                                      <span class="" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        Enviar mensaje
+                                      </span>
+                                    </div>
+                                
+                                    <div id="collapseSix" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                      <div class="card-body">
+                                          <div class="form-group">
+                                              <label for="" class="fieldNameConfCtrl">Asunto</label>
+                                              <input type="text" class="form-control" id="" placeholder="">
+                                            </div>
+                                            <div class="form-group">
+                                              <label for=""class="fieldNameConfCtrl">Número de seguridad</label>
+                                              <input type="text" class="form-control" id="" placeholder="">
+                                            </div>
+                                            <div class="form-group">
+                                              <label for="" class="fieldNameConfCtrl">Mensaje</label>
+                                              <textarea type="email" class="form-control" id="" placeholder=""></textarea>
+                                            </div>
+                                            <div class="cntnrCTAconfCtrl">
+                                                <span class="CTAconfCtrl">Enviar</span>
+                                            </div>
+                                      </div>
+                                    </div>
+                                  </div>
+<!-- buzón  -->
+                                  <div class="card cardConfgCtrl">
+                                    <div class="card-header" id="headingS">
+                                      <span class=" spanNotfcCtrl" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                        Buzón <span class="badge bdgCounterCtrl">2</span>
+                                      </span>
+                                    </div>
+                                
+                                    <div id="collapseSeven" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                      <div class="card-body ">
+                                          <div class="msgContainer">
+                                          <div class="msgHeadCntnrCtrl">
+                                              <span class="msgEmisorName">Emisor name <span class="badge bdgCounterCtrl_newMsg">NEW</span></span>
+                                              <span class="msgDateSend">DD / MM / AAAA <span>10:08</span></span>
+                                          </div>
+                                          <div class="msgHeadCntnrCtrl">
+                                            <span class="msgEmisorName">Emisor name <span class="badge bdgCounterCtrl_newMsg">NEW</span></span>
+                                            <span class="msgDateSend">DD / MM / AAAA <span>10:08</span></span>
+                                        </div>
+                                        <div class="msgHeadCntnrCtrl">
+                                            <span class="msgEmisorName">Emisor name </span>
+                                            <span class="msgDateSend">DD / MM / AAAA <span>10:08</span></span>
+                                        </div>
+                                        <div class="msgHeadCntnrCtrl">
+                                            <span class="msgEmisorName">Emisor name </span>
+                                            <span class="msgDateSend">DD / MM / AAAA <span>10:08</span></span>
+                                        </div>
+                                        <div class="msgHeadCntnrCtrl">
+                                            <span class="msgEmisorName">Emisor name </span>
+                                            <span class="msgDateSend">DD / MM / AAAA <span>10:08</span></span>
+                                        </div>
+                                        <div class="msgHeadCntnrCtrl">
+                                            <span class="msgEmisorName">Emisor name </span>
+                                            <span class="msgDateSend">DD / MM / AAAA <span>10:08</span></span>
+                                        </div>
+                                    </div>
+                                      </div>
+                                    </div>
+                                  </div>
+<!-- enviados  -->
+                        <div class="card cardConfgCtrl">
+                            <div class="card-header" id="headingS">
+                            <span class="" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                Enviados 
+                            </span>
+                            </div>
+
+                            <div id="collapseEight" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body ">
+                                <div class="msgContainer">
+                                <div class="msgHeadCntnrCtrl">
+                                    <span class="msgEmisorName">Asunto cualquiera 1</span>
+                                    <span class="msgDateSend">DD / MM / AAAA <span>10:08</span></span>
+                                </div>
+                                <div class="msgHeadCntnrCtrl">
+                                    <span class="msgEmisorName">Asunto diferente 2</span>
+                                    <span class="msgDateSend">DD / MM / AAAA <span>10:08</span></span>
+                                </div>
+                                <div class="msgHeadCntnrCtrl">
+                                    <span class="msgEmisorName">Asunto 3</span>
+                                    <span class="msgDateSend">DD / MM / AAAA <span>10:08</span></span>
+                                </div>
+                                <div class="msgHeadCntnrCtrl">
+                                    <span class="msgEmisorName">Asunto 4 </span>
+                                    <span class="msgDateSend">DD / MM / AAAA <span>10:08</span></span>
+                                </div>
+                                <div class="msgHeadCntnrCtrl">
+                                    <span class="msgEmisorName">Asunto something 5</span>
+                                    <span class="msgDateSend">DD / MM / AAAA <span>10:08</span></span>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-1 col-md-1"></div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">.que..</div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...onda</div>
+              </div>
+          
+
+    
+    
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/dc01447067.js" crossorigin="anonymous"></script>
+</body>
+</html>
