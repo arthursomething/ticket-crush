@@ -352,3 +352,10 @@ body{
     color: rgba(255,255,255,.5);
     margin-bottom: 20px;
 }
+
+.aviso{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 78, 78);
+}

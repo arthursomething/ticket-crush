@@ -1053,6 +1053,16 @@ margin-top: 20px;
     border-top: solid white 1px;
 }
 
+.flexDsplyCtrl{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
 .totalTicketsCtrl span{
     font-size: 17px;
     font-weight: 500;

@@ -68,6 +68,7 @@
       </div>
 
             <div class="tab-content" id="myTabContent">
+<!-- tab mi cuenta  -->
                 <div class="tab-pane fade show active container-fluid" id="home" role="tabpanel" aria-labelledby="home-tab">
                     <div class="row">
                         <div class="col-lg-1 col-md-1"></div>
@@ -284,38 +285,17 @@
                                       <div class="card-body">
                                         <span class="sectSubCtrl">Verificación de su cuenta</span>
                                         <p class="txtInstctnCtrl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta corrupti, debitis sed omnis id veritatis tempora labore ea placeat iure. Commodi a dignissimos ut provident optio ipsam animi corporis rerum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, tempora magnam? Similique laborum sint omnis ullam, praesentium sequi blanditiis quia numquam voluptates totam saepe sunt error vitae, voluptatibus eaque consectetur.</p>
-                                        <span class="stepConfCtrl">Paso 1</span>
+                                        
                                         <div class="form-group">
-                                            <label for=""class="fieldNameConfCtrl">Tipo de Documento</label>
-                                            <select class="custom-select">
-                                                <option selected>Seleccionar</option>
-                                                <option value="1">Pasaporte</option>
-                                                <option value="2">Licencia de conducir</option>
-                                                <option value="3">Documento de identificación</option>
-                                                <option value="3">...</option>
-                                              </select>
-                                          </div>
-                                          
-                                        <span class="stepConfCtrl">Paso 2</span>
-                                        <div class="form-group">
-                                            <label for=""class="fieldNameConfCtrl">código de verificación postal (PVC)</label>
+                                            <label for=""class="fieldNameConfCtrl">código de verificación</label>
                                             <input type="text" class="form-control" id="" placeholder="">
-                                            <small class="linkConfCtrl">solicitar PVC</small>
+                                            <small class="linkConfCtrl">instrucciones</small>
                                           </div>
                                           <div class="cntnrCTAconfCtrl">
-                                            <span class="CTAconfCtrl">Enviar</span>
+                                            <span class="CTAconfCtrl">Verificar Cuenta</span>
                                         </div>
 
-                                        <span class="sectSubCtrl">Verificación postal PVC</span>
-                                        <p class="txtInstctnCtrl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, esse id commodi nam fuga minus nulla molestias temporibus corporis culpa non eveniet, voluptas pariatur quidem beatae placeat exercitationem, eum consequatur.</p>
-                                        <div class="form-group">
-                                            <label for=""class="fieldNameConfCtrl">código de verificación postal (PVC)</label>
-                                            <input type="text" class="form-control" id="" placeholder="">
-                                            <small class="linkConfCtrl">solicitar PVC</small>
-                                          </div>
-                                          <div class="cntnrCTAconfCtrl">
-                                            <span class="CTAconfCtrl">Verificar</span>
-                                        </div>
+                                      
                                       </div>
                                     </div>
                                   </div>
@@ -437,7 +417,150 @@
                         <div class="col-lg-1 col-md-1"></div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">.que..</div>
+<!-- tab banca  -->
+                <div class="tab-pane fade container fluid" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                  <div class="row">
+                    <div class="col-lg-1  col-md-1"></div>
+                    <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+                      <span class="tittleSectProfile">Montos</span>
+                      <div class="hDividerClrCtrl">&nbsp;</div>
+                      <div class="accordion" id="accordionExample">
+<!-- saldo  -->
+                          <div class="card cardConfgCtrl">
+                              <div class="card-header" id="headingOne">
+                                <span class="" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                  Saldo
+                                </span>
+                              </div>
+                          
+                              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    something
+                                </div>
+                              </div>
+                            </div>
+<!-- transferir ???? -->
+                            <!-- <div class="card cardConfgCtrl">
+                              <div class="card-header" id="headingS">
+                                <span class="" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                  Transferir 
+                                </span>
+                              </div>
+                          
+                              <div id="collapseSeven" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body ">
+                                    
+                                </div>
+                              </div>
+                            </div> -->
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+                      <span class="tittleSectProfile">Transcciones</span>
+                      <div class="hDividerClrCtrl">&nbsp;</div>
+                      <div class="accordion" id="accordionExample">
+<!-- ingresar  -->
+                          <div class="card cardConfgCtrl">
+                              <div class="card-header" id="headingOne">
+                                <span class="" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                  Ingresar
+                                </span>
+                              </div>
+                          
+                              <div id="collapseSix" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                  <div class="form-group">
+                                    <label for="" class="fieldNameConfCtrl">Método de pago</label>
+                                    <select class="custom-select" id="inputGroupSelect01">
+                                      <option selected>Seleccionar...</option>
+                                      <option value="1">Tarjeta de crédito / débito</option>
+                                      <option value="2">paysafecard</option>
+                                      <option value="3">SPEI</option>
+                                      <option value="3">Todito Cash</option>
+                                      <option value="3">Tarjeta AstroPay</option>
+                                      <option value="3">OXXO</option>
+                                      <option value="3">Giro bancario</option>
+                                    </select>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label for="" class="fieldNameConfCtrl">Divisa</label>
+                                    <select class="custom-select" id="inputGroupSelect01">
+                                      <option selected>Seleccionar...</option>
+                                      <option value="1">Pesos Mexicanos (MXN)</option>
+                                      <option value="2">Pesos Colombianos (COP)</option>
+                                      <option value="3">Dólares (USD)</option>
+                                    </select>
+                                  </div>
+
+                                  <span class="aviso">aqui va el formulario correspondiente</span>
+
+                                  <div class="form-group">
+                                    <label for=""class="fieldNameConfCtrl">Ingresar Cantidad</label>
+                                    <div class="input-group mb-3">
+                                      <div class="input-group-prepend">
+                                        <label class="input-group-text" for="inputGroupSelect01">$</label>
+                                      </div>
+                                      <input type="text" class="form-control" id="" placeholder="">
+                                    </div>
+                                    
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label for="" class="fieldNameConfCtrl">Limite de ingresos por intervalo</label>
+                                    <select class="custom-select" id="inputGroupSelect01">
+                                      <option selected>Seleccionar...</option>
+                                      <option value="1">24 hrs.</option>
+                                      <option value="2">7 Días</option>
+                                      <option value="3">30 Días</option>
+                                    </select>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label for="" class="fieldNameConfCtrl">Limite de ingresos</label>
+                                    <select class="custom-select" id="inputGroupSelect01">
+                                      <option selected>Seleccionar...</option>
+                                      <option value="1">Sin límite.</option>
+                                      <option value="2">$ 100</option>
+                                      <option value="3">$ 500</option>
+                                      <option value="3">$ 1000</option>
+                                      <option value="3">$ 1500</option>
+                                      <option value="3">$ 2000</option>
+                                      <option value="3">$ 2500</option>
+                                    </select>
+                                  </div>
+
+                                  
+                                  <p class="txtInstctnCtrl">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, fuga nulla! Ex facere asperiores ipsam esse nostrum necessitatibus accusantium repellat excepturi repellendus voluptatibus dolores architecto, ad, fugiat pariatur animi ullam.</p>
+                                  <div class="cntnrCTAconfCtrl">
+                                    <span class="CTAconfCtrl">Ingresar</span>
+                                </div>
+
+
+                                </div>
+                              </div>
+                            </div>
+<!-- retirar  -->
+                            <div class="card cardConfgCtrl">
+                              <div class="card-header" id="headingS">
+                                <span class="" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                  Retirar
+                                </span>
+                              </div>
+                          
+                              <div id="collapseSeven" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body ">ç
+                                  <span class="sectSubCtrl">Acceso a la cuenta</span>
+                                        <p class="txtInstctnCtrl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta corrupti, debitis sed omnis id veritatis tempora labore ea placeat iure. Commodi a dignissimos ut provident optio ipsam animi corporis rerum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, tempora magnam? Similique laborum sint omnis ullam, praesentium sequi blanditiis quia numquam voluptates totam saepe sunt error vitae, voluptatibus eaque consectetur.</p>
+                                        
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-1  col-md-1"></div>
+                  </div>
+                </div>
                 <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...onda</div>
               </div>
           
