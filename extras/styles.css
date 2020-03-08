@@ -1,0 +1,92 @@
+:root{
+    --t_gray:#464646;
+    --t_gray_d:#343434;
+    --t_purple:#AC13E5;
+    --t_blue:#16A3E2;
+    --t_green:#13F49D;
+}
+
+/* repeated classes  */
+body{
+    font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+a,a:hover.a:active,a:focus{
+    color: white !important;
+    text-decoration: none !important;
+    border: none;
+    outline: none;
+}
+
+.bodyAppCtrl{
+    background-color: var(--t_gray);
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hDividerClrCtrl{
+    width: 100%;
+    height: 3px;
+    border-radius: 9px;
+    background-image: linear-gradient(to right bottom, var(--t_green),var(--t_blue));
+    margin-bottom: 8px;
+}
+
+
+/* clases nuevas  */
+
+.fqsTitleCtrl{
+    display: block;
+    width: 100%;
+    color: white;
+    font-weight: 700;
+    font-size: 90px;
+}
+
+.fqsDescCtrl{
+    display: block;
+    width: 100%;
+    color: white;
+}
+
+.accrdnctrl{
+    margin-top: 90px !important;
+    border-radius: 4px !important;
+}
+
+.accrdnctrl .card{
+    border:none !important;
+    border-color: var(--t_gray) !important;
+    border-radius: 4px !important;
+    background-color: var(--t_gray);
+    margin-bottom: 3px;
+}
+
+.fqsCrdHdrCtrl{
+    background: none;
+    background-color: var(--t_gray_d) !important;
+    color: white;
+    border: none !important;
+    border-color: var(--t_gray) !important;
+    border-radius: 4px !important;
+}
+
+.fqsCrdHdrCtrl span{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.accrdnctrl .card-body{
+    background-color: var(--t_gray);
+    border: none !important;
+    color: white;
+    font-size: 12px;
+}
