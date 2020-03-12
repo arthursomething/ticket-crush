@@ -90,3 +90,13 @@ a,a:hover.a:active,a:focus{
     color: white;
     font-size: 12px;
 }
+
+.subtitleCtrl{
+    display: block;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+ border-left: solid 6px var(--t_blue);
+ padding-left: 16px;
+ margin-bottom: 9px;
+}
